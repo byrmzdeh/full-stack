@@ -1,0 +1,15 @@
+.detail{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto;
+    i{
+        font-size: 300px;
+        color: #eb566c;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}

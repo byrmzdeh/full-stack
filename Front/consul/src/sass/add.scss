@@ -1,0 +1,29 @@
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input {
+            width: 400px;
+            height: 40px;
+        }
+
+        button {
+            width: 130px;
+            height: 30px;
+            background-color: rgb(110, 110, 211);
+            color: white;
+            font-weight: bolder;
+            font-size: 19px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

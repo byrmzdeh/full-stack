@@ -1,0 +1,338 @@
+.home {
+    .two {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f7f7f7;
+
+        .our {
+            width: 70%;
+            background-color: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .line-write {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                .line {
+                    width: 60px;
+                    height: 10px;
+                    border-top: 2px solid #eb566c;
+                }
+
+                h3 {
+                    font-family: sans-serif;
+                    font-weight: 100;
+                    color: #eb566c;
+                }
+            }
+
+            h1 {
+                color: #092c3f;
+                font-weight: 900;
+                font-family: sans-serif;
+                font-size: 37px;
+            }
+
+            .cards {
+                margin-top: 50px;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                align-items: center;
+                justify-content: space-between;
+
+                .card {
+                    width: 350px;
+                    height: 350px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    position: relative;
+                    gap: 20px;
+
+                    .back-icon {
+                        color: #eb566c;
+                        font-size: 50px;
+                        position: absolute;
+                        z-index: 4;
+                        top: 13%;
+                    }
+
+                    h2 {
+                        color: #092c3f;
+                        position: absolute;
+                        z-index: 4;
+                        top: 40%;
+                    }
+
+
+
+                    p {
+                        width: 80%;
+                        text-align: center;
+                        color: #57667e;
+                        position: absolute;
+                        z-index: 4;
+                        top: 57%;
+
+                    }
+
+                    h4 {
+                        color: #092c3f;
+                        position: absolute;
+                        z-index: 4;
+                        top: 75%;
+                    }
+
+                    .eye {
+                        position: absolute;
+                        top: 23px;
+                        left: 30px;
+                        font-size: 20px;
+                        z-index: 4;
+                        color: black;
+                        cursor: pointer;
+                    }
+
+                    .heart {
+                        position: absolute;
+                        top: 23px;
+                        right: 30px;
+                        font-size: 20px;
+                        z-index: 4;
+                        color: black;
+                        cursor: pointer;
+                    }
+
+                    .basket {
+                        position: absolute;
+                        top: 55px;
+                        left: 30px;
+                        font-size: 19px;
+                        z-index: 4;
+                        cursor: pointer;
+                    }
+
+                    .absolute {
+                        position: absolute;
+                        width: 340px;
+                        height: 0px;
+                        // background-color: #eb566c;
+                        transition: 1s;
+                        bottom: 15px;
+                        margin: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        button {
+                            width: 100px;
+                            height: 20px;
+                            border: none;
+                            cursor: pointer;
+                            position: absolute;
+                            bottom: 10px;
+                        }
+
+
+                    }
+
+                    &:hover {
+                        .absolute {
+                            width: 340px;
+                            height: 330px;
+                            background-color: #dc3545;
+                        }
+
+                        .back-icon {
+                            color: white;
+                        }
+
+                        h2 {
+                            color: white;
+                        }
+
+                        p {
+                            color: white;
+                            text-align: center;
+                        }
+
+                        h4 {
+                            color: white;
+                        }
+
+                        .eye {
+                            color: white;
+                        }
+
+                        .basket {
+                            color: white;
+                        }
+                        .heart{
+                            color: white;
+                        }
+
+
+                    }
+                }
+            }
+
+
+
+        }
+    }
+
+    .three {
+        width: 100%;
+        height: 88vh;
+        background-image: url('https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg');
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .best {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            h1 {
+                font-size: 60px;
+                color: white;
+            }
+
+            h3 {
+                font-size: 20px;
+                color: white;
+            }
+
+            p {
+                color: rgb(222, 218, 218);
+                font-size: 20px;
+            }
+
+            .button {
+                width: 200px;
+                height: 60px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #dc3545;
+                color: white;
+                transition: 0.6s;
+                border: none;
+                position: relative;
+
+                .btn-opacity {
+                    position: absolute;
+                    left: 0;
+                    background-color: white;
+                    width: 10px;
+                    height: 60px;
+                    transition: 1s;
+                }
+
+                h4 {
+                    position: absolute;
+                    z-index: 3;
+                }
+
+                &:hover {
+                    .btn-opacity {
+                        background-color: white;
+                        width: 200px;
+                        height: 60px;
+
+                    }
+
+                    h4 {
+                        color: #dc3545;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .five {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f7f7f7;
+
+        .our {
+            width: 70%;
+            background-color: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .line-write {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                .line {
+                    width: 60px;
+                    height: 10px;
+                    border-top: 2px solid #eb566c;
+                }
+
+                h3 {
+                    font-family: sans-serif;
+                    font-weight: 100;
+                    color: #eb566c;
+                }
+            }
+            h1{
+                font-size: 57px;
+            }
+            .cards{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                .card{
+                    width: 350px;
+                    height: 530px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 18px;
+                    cursor: pointer;
+                    &:hover{
+                        img{
+                            scale: 1.01;
+                        }
+                    }
+                    .line-write {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+        
+                        .line {
+                            width: 20px;
+                            height: 10px;
+                            border-top: 2px solid #eb566c;
+                        }
+        
+                        h3 {
+                            font-family: sans-serif;
+                            font-weight: 100;
+                            color: #eb566c;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
